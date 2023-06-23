@@ -17,7 +17,7 @@ public:
 
 		//Cek apakah antrian penuh.
 		if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1)) {
-			cout << "\nQueue pverflow\n";
+			cout << "\nQueue overflow\n";
 			return;
 		}
 		//Cek apakah antrian kosong.
@@ -55,4 +55,9 @@ public:
 				FRONT = FRONT + 1;
 		}
 	}
+	void display() {
+		int FRONT_position = FRONT;
+		
+	}
+	
 };
