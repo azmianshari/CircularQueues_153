@@ -32,6 +32,9 @@ public:
 			else
 				REAR = REAR + 1;
 		}
-		
+		queue_array[REAR] = num;
+	}
+	void remove() {
+
 	}
 };
