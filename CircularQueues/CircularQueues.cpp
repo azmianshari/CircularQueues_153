@@ -10,6 +10,7 @@ public:
 		REAR = -1;
 	}
 	void insert() {
-
+		int num;
+		
 	}
 };
