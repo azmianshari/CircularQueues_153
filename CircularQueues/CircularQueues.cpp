@@ -2,5 +2,5 @@
 using namespace std;
 
 class Queues {
-	int FRONT, 
+	int FRONT, REAR, max = 5;
 };
